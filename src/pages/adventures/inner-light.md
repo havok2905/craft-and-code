@@ -401,7 +401,8 @@ If the Talon Toad takes 15 or more damage in a single turn, it must succeed a DC
 **Senses** passive Perception 10, Truesight 120ft.
 
 **Condition Immunities** Disease, Exhaustion, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained
-Damage Immunities Necrotic, Radiant
+
+**Damage Immunities** Necrotic, Radiant
 
 **Languages** Telepathy (can only communicate with emotion)
 
