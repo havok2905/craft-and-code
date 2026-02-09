@@ -1,0 +1,15 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import '../styles/dnd.css';
+
+const { frontmatter } = Astro.props;
+---
+<BaseLayout pageTitle={frontmatter.title}>
+  <div class="dnd-adventure">
+    <p><strong>System:</strong> {frontmatter.system}</p>
+    <p><strong>Number of Players:</strong> {frontmatter.numPlayers}</p>
+    <p><strong>Level:</strong> {frontmatter.level}</p>
+    <p><strong>Duration:</strong> {frontmatter.duration}</p>
+    <slot />
+  </div>
+</BaseLayout>

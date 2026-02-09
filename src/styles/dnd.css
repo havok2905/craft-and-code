@@ -1,0 +1,41 @@
+.dnd-adventure blockquote {
+  background-color: var(--green-03);
+  border-radius: var(--border-radius-01);
+  box-sizing: border-box;
+  padding: var(--spacing-01);
+}
+
+.dnd-adventure blockquote p:first-of-type:before {
+  content: none;
+}
+
+.dnd-adventure blockquote p:last-of-type:after {
+  content: none;
+}
+
+.dnd-adventure h2 {
+  color: var(--red-01);
+}
+
+.dnd-adventure h3 {
+  color: var(--red-01);
+}
+
+.dnd-adventure hr {
+  color: var(--red-01);
+}
+
+.dnd-adventure .dnd-adventure-creature-header {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.dnd-adventure .dnd-adventure-creature-header h3 {
+  line-height: normal;
+}
+
+.dnd-adventure .dnd-adventure-creature-header img {
+  max-width: 150px;
+}
