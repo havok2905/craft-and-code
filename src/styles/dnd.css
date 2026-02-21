@@ -13,14 +13,6 @@
   content: none;
 }
 
-.dnd-adventure h2 {
-  color: var(--red-01);
-}
-
-.dnd-adventure h3 {
-  color: var(--red-01);
-}
-
 .dnd-adventure hr {
   color: var(--red-01);
 }

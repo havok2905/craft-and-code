@@ -34,6 +34,14 @@ main {
   flex: 1;
 }
 
+a {
+  color: #3489b1
+}
+
+a:hover {
+  color: #46b9ee
+}
+
 em {
   font-style: italic;
 }
@@ -132,12 +140,13 @@ td {
   background: transparent;
   border: 2px solid #1f1f1f;
   border-radius: 2rem;
+  box-sizing: border-box;
+  color: #000000;
   cursor: pointer;
   font-family: "EB Garamond", serif;
-  font-size: 1.5rem;
-  height: 3rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  font-size: 1.25rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
 }
 
 .button:hover {
@@ -145,9 +154,29 @@ td {
   color: #ffffff;
 }
 
+.button svg {
+  margin-left: 0.5rem;
+}
+
+.button:hover svg {
+  fill: #ffffff;
+}
+
+.card {
+  border: 1px solid #aaaaaa;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.card h3 {
+  line-height: normal;
+  margin: 0;
+}
+
 .container {
-  margin: 14rem auto 0 auto;
-  max-width: 960px;
+  margin: 4rem auto 0 auto;
+  max-width: 800px;
   padding: 2rem;
 }
 
@@ -188,20 +217,20 @@ td {
   text-align: center;
 }
 
-.navigation {
-  background: #1f1f1f;
-  background: linear-gradient(0deg,rgba(31, 31, 31, 1) 0%, rgba(0, 0, 0, 1) 100%);
-  border-bottom: solid 1px #aaaaaa;
-  box-shadow: 0 0 10px 0 #000000;
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  height: 12rem;
-  justify-content: center;
-  position: fixed;
+.home-page {
   text-align: center;
-  top: 0;
-  width: 100%;
+}
+
+.home-page h1 {
+  margin-top: 0;
+}
+
+.home-page p {
+  text-align: left;
+}
+
+.home-page svg {
+  width: 12rem;
 }
 
 .link-list {
@@ -212,7 +241,7 @@ td {
 .link-list .link-list-item {
   border: 1px solid #aaaaaa;
   border-radius: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .link-list .link-list-item:hover {
@@ -226,7 +255,6 @@ td {
 .link-list .link-list-item:hover a svg {
   fill: #ffffff;
 }
-
 
 .link-list .link-list-item a {
   align-items: center;
@@ -242,11 +270,29 @@ td {
   width: 1.5rem;
 }
 
+.navigation {
+  align-items: center;
+  background: #1f1f1f;
+  background: linear-gradient(0deg,rgba(31, 31, 31, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  border-bottom: solid 1px #aaaaaa;
+  box-shadow: 0 0 10px 0 #000000;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  height: 4rem;
+  justify-content: space-between;
+  padding: 0 1rem;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
 .navigation svg {
   fill: #ffffff;
-  height: 4rem;
+  height: 2rem;
   margin: 0 auto;
-  width: 4rem;
+  width: 2rem;
 }
 
 .navigation ul {
@@ -255,7 +301,6 @@ td {
   justify-content: center;
   list-style-type: none;
   margin-left: 0;
-  margin-top: 1rem;
 }
 
 .navigation ul li {
@@ -266,17 +311,44 @@ td {
 
 .navigation ul li a {
   color: #ffffff;
+  text-decoration: none;
+}
+
+.navigation ul li a:hover {
+  text-decoration: underline;
+}
+
+.navigation .navigation-title-container {
+  display: flex;
+  gap: 1rem;
 }
 
 .navigation .navigation-title {
-  font-size: 1rem;
+  font-size: 1.25rem;
   line-height: normal;
   margin-bottom: 0;
   margin-top: 0;
   text-align: center;
 }
 
-.navigation .navigation-title span {
+.navigation .navigation-title a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.pill-list {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 0;
+  width: 100%;
+}
+
+.pill {
+  background-color: #1f1f1f;
+  border-radius: 1rem;
+  color: #ffffff;
   display: block;
-  font-size: 1.625rem;
+  font-size: 0.75rem;
+  line-height: normal;
+  padding: 0.5rem 1rem;
 }
