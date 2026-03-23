@@ -1,9 +1,9 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-const pageTitle = 'Tabletop Gaming';
+const pageTitle = 'Stories';
 
-const allPosts = Object.values(import.meta.glob('./adventures/*.md', { eager: true }));
+const allPosts = Object.values(import.meta.glob('./stories/*.md', { eager: true }));
 ---
 <BaseLayout pageTitle={pageTitle}>
   <ul class="link-list">
@@ -12,7 +12,12 @@ const allPosts = Object.values(import.meta.glob('./adventures/*.md', { eager: tr
         <li class="link-list-item">
           <a href={post.url}>
             <div>
-              {post.frontmatter.title}
+              <h3>
+                {post.frontmatter.title}
+              </h3>
+              <p class="link-list-item-date">
+                {post.frontmatter.pubMonth}/{post.frontmatter.pubDay}/{post.frontmatter.pubYear}
+              </p>
               <p>
                 {post.frontmatter.description}
               </p>
@@ -26,4 +31,3 @@ const allPosts = Object.values(import.meta.glob('./adventures/*.md', { eager: tr
     })}
   </ul>
 </BaseLayout>
-

@@ -1,9 +1,10 @@
 ---
 layout: ../../layouts/MarkdownAdventureLayout.astro
 title: 'Inner Light'
-pubDate: 2026-04-02
-description: 'Spelljammer Adventure for Tier 1 D&D.'
-author: 'Chris McLean'
+pubYear: 2026
+pubMonth: 3
+pubDay: 12
+description: 'Spelljammer one-shot adventure for Tier 1 characters using Dungeons and Dragons 5th Edition.'
 system: 'Dungeons & Dragons 5th Edition'
 level: 'Tier 1'
 duration: '1 Session'

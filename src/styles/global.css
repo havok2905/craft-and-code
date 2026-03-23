@@ -136,44 +136,6 @@ td {
   padding: 0.5rem;
 }
 
-.button {
-  background: transparent;
-  border: 2px solid #1f1f1f;
-  border-radius: 2rem;
-  box-sizing: border-box;
-  color: #000000;
-  cursor: pointer;
-  font-family: "EB Garamond", serif;
-  font-size: 1.25rem;
-  padding: 1rem 2rem;
-  text-decoration: none;
-}
-
-.button:hover {
-  background: #1f1f1f;
-  color: #ffffff;
-}
-
-.button svg {
-  margin-left: 0.5rem;
-}
-
-.button:hover svg {
-  fill: #ffffff;
-}
-
-.card {
-  border: 1px solid #aaaaaa;
-  border-radius: 1rem;
-  padding: 1rem;
-  margin: 1rem 0;
-}
-
-.card h3 {
-  line-height: normal;
-  margin: 0;
-}
-
 .container {
   margin: 4rem auto 0 auto;
   max-width: 800px;
@@ -198,17 +160,6 @@ td {
   color: #ffffff;
 }
 
-.footer .footer-socials {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-}
-
-.footer .footer-socials svg {
-  fill: #ffffff;
-  width: 1rem;
-}
-
 .footer .footer-title {
   font-size: 1.625rem;
   line-height: normal;
@@ -230,7 +181,10 @@ td {
 }
 
 .home-page svg {
-  width: 12rem;
+  margin-top: 6rem;
+  position: relative;
+  top: 2rem;
+  width: 6rem;
 }
 
 .link-list {
@@ -268,6 +222,15 @@ td {
 .link-list .link-list-item a svg {
   height: 1.5rem;
   width: 1.5rem;
+}
+
+.link-list .link-list-item h3 {
+  line-height: normal;
+  margin-top: 0;
+}
+
+.link-list .link-list-item .link-list-item-date {
+  margin-top: 0;
 }
 
 .navigation {
@@ -334,21 +297,4 @@ td {
 .navigation .navigation-title a {
   color: #ffffff;
   text-decoration: none;
-}
-
-.pill-list {
-  display: flex;
-  gap: 0.5rem;
-  margin-left: 0;
-  width: 100%;
-}
-
-.pill {
-  background-color: #1f1f1f;
-  border-radius: 1rem;
-  color: #ffffff;
-  display: block;
-  font-size: 0.75rem;
-  line-height: normal;
-  padding: 0.5rem 1rem;
 }
