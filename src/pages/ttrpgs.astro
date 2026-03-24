@@ -4,10 +4,22 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = 'Tabletop Gaming';
 
 const allPosts = Object.values(import.meta.glob('./ttrpgs/*.md', { eager: true }));
+const sortedPosts = allPosts.sort((a, b) => {
+  const dateStringA = `${a.frontmatter.pubMonth}/${a.frontmatter.pubDay}/${a.frontmatter.pubYear}`;
+  const dateStringB = `${b.frontmatter.pubMonth}/${b.frontmatter.pubDay}/${b.frontmatter.pubYear}`;
+
+  if (dateStringA < dateStringB) return 1;
+  if (dateStringA > dateStringB) return -1;
+  if (dateStringA === dateStringB) {
+    if (a.frontmatter.title > b.frontmatter.title) return 1;
+    if (a.frontmatter.title < b.frontmatter.title) return -1;
+    return 0;
+  }
+});
 ---
 <BaseLayout pageTitle={pageTitle}>
   <ul class="link-list">
-    {allPosts.map((post: any) => {
+    {sortedPosts.map((post: any) => {
       return (
         <li class="link-list-item">
           <a href={post.url}>
