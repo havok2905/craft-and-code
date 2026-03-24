@@ -25,7 +25,7 @@ All constructs and magic items made with Ferrulynne work by an intricate network
 
 ### The Planet Lux & its History
 
-![Planet Lux Splash Art](/pages/adventures/inner-light/lux.png "Planet Lux Splash Art")
+![Planet Lux Splash Art](/craft-and-code/pages/adventures/inner-light/lux.png "Planet Lux Splash Art")
 
 Lux is a humid planet with vast oceans and deep reservoirs of ground water. These reservoirs sometimes empty and may, over millennia, fill with a dense rust-colored mineral. Vegetation grows fiercely and dense on Lux, covering almost all available landmass with a jungle of thick vines and trees. Fauna on this planet has evolved to adapt to the dense jungles, sporting long limbs for climbing and sharp talons to hack at the dense vegetation. Overhead, colossal insects prowl the skies hunting for creatures that peak through the tops of the dense jungle canopy.
 
@@ -71,7 +71,7 @@ Veri cannot speak in this state. They can only communicate through broadcasting 
 
 ## Through the Jungle
 
-![Talon Toad Splash Art](/pages/adventures/inner-light/talon-toad.png "Talon Toad Splash Art")
+![Talon Toad Splash Art](/craft-and-code/pages/adventures/inner-light/talon-toad.png "Talon Toad Splash Art")
 
 The path towards the city core is considered Difficult Terrain, as it has been overgrown with vegetation and been partially reclaimed by the wilds. It takes two hours to reach the city's core when traveling at a Normal Pace.
 
@@ -157,7 +157,7 @@ Veri will reward the players each with 100gp worth of gems, as well as three ran
   </div>
   <img
     alt="Crystal Scout Token"
-    src="/pages/adventures/inner-light/token-crystal-scout.png"
+    src="/craft-and-code/pages/adventures/inner-light/token-crystal-scout.png"
   />
 </div>
 
@@ -207,7 +207,7 @@ Veri will reward the players each with 100gp worth of gems, as well as three ran
   </div>
   <img
     alt="Crystal Soldier Token"
-    src="/pages/adventures/inner-light/token-crystal-soldier.png"
+    src="/craft-and-code/pages/adventures/inner-light/token-crystal-soldier.png"
   />
 </div>
 
@@ -265,7 +265,7 @@ Veri will reward the players each with 100gp worth of gems, as well as three ran
   </div>
   <img
     alt="Talon Toad Token"
-    src="/pages/adventures/inner-light/token-talon-toad.png"
+    src="/craft-and-code/pages/adventures/inner-light/token-talon-toad.png"
   />
 </div>
 
@@ -317,7 +317,7 @@ If the Talon Toad takes 15 or more damage in a single turn, it must succeed a DC
   </div>
   <img
     alt="The Nine Token"
-    src="/pages/adventures/inner-light/token-the-nine.png"
+    src="/craft-and-code/pages/adventures/inner-light/token-the-nine.png"
   />
 </div>
 
@@ -374,7 +374,7 @@ If the Talon Toad takes 15 or more damage in a single turn, it must succeed a DC
   </div>
   <img
     alt="Veri Token"
-    src="/pages/adventures/inner-light/token-veri.png"
+    src="/craft-and-code/pages/adventures/inner-light/token-veri.png"
   />
 </div>
 
