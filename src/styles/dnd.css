@@ -2,7 +2,10 @@
   background-color: var(--green-03);
   border-radius: var(--border-radius-01);
   box-sizing: border-box;
-  padding: var(--spacing-01);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.35);
+  margin-bottom: 3rem;  
+  margin-top: 3rem;
+  padding: var(--spacing-02);
 }
 
 .dnd-adventure blockquote p:first-of-type:before {
@@ -13,6 +16,10 @@
   content: none;
 }
 
+.dnd-adventure img {
+  border-radius: 1rem;
+}
+
 .dnd-adventure hr {
   color: var(--red-01);
 }
@@ -21,7 +28,6 @@
   align-items: flex-end;
   display: flex;
   justify-content: space-between;
-  margin-top: 3rem;
 }
 
 .dnd-adventure .dnd-adventure-creature-header h3 {

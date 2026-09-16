@@ -1,9 +1,9 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-const pageTitle = 'Stories';
+const pageTitle = 'Blog';
 
-const allPosts = Object.values(import.meta.glob('./stories/*.md', { eager: true }));
+const allPosts = Object.values(import.meta.glob('./blog/*.md', { eager: true }));
 const sortedPosts = allPosts.sort((a, b) => {
   const dateStringA = `${a.frontmatter.pubMonth}/${a.frontmatter.pubDay}/${a.frontmatter.pubYear}`;
   const dateStringB = `${b.frontmatter.pubMonth}/${b.frontmatter.pubDay}/${b.frontmatter.pubYear}`;

@@ -1,0 +1,34 @@
+---
+import { ALBUMS, ALBUM_SEATTLE_2026 } from "../../constants/albums";
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const album = ALBUM_SEATTLE_2026;
+const pageTitle = album.name;
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <div>
+    <p>{album.description}</p>
+    <p>
+      A full album of this trip's photos can be found
+      <a href="https://www.flickr.com/photos/77289297@N02/albums/72177720335580172" target="_blank">
+        here.
+      </a>
+    </p>
+    <div class="image-gallery">
+      {
+        album.images.map((image) => {
+          return (
+            <a href={image.path} target="_blank">
+              <img
+                src={image.thumbnailPath}
+                alt={image.description}
+                title={image.description}
+              />
+            </a>
+          );
+        })
+      }
+    </div>
+  </div>
+</BaseLayout>

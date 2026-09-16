@@ -25,6 +25,7 @@ const { pageTitle, isHome } = Astro.props;
           <main class="home-page">
             <div class="container">
               <svg
+                class="home-page-logo"
                 version="1.1"
                 viewBox="0 0 297 277"
                 xml:space="preserve"
@@ -50,7 +51,7 @@ const { pageTitle, isHome } = Astro.props;
                   </g>
                 </g>
               </svg>
-              <h1>{pageTitle}</h1>
+              <h1>From the desk of <span class="name">Chris McLean</span></h1>
               <slot />
             </div>
           </main>

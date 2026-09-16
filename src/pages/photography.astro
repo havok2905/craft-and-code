@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { ALBUMS } from "../constants/albums";
+
+const pageTitle = 'Photography';
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <ul class="link-list">
+    {
+      ALBUMS.map((album) => (
+        <li class="link-list-item">
+          <a href={`${album.route}`}>
+            <div>
+              <img src={album.cover}/>
+              <h3>{album.name}</h3>
+              <p>{album.description}</p>
+            </div>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</BaseLayout>

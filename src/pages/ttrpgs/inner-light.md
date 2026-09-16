@@ -4,7 +4,7 @@ title: 'Inner Light'
 pubYear: 2026
 pubMonth: 3
 pubDay: 12
-description: 'Spelljammer one-shot adventure for Tier 1 characters using Dungeons and Dragons 5th Edition.'
+description: 'Players explore a distress signal on a far flung planet of disabled constructs, now a ruin of its former self, and may choose to help the sole survivor reactivate the city.'
 system: 'Dungeons & Dragons 5th Edition'
 level: 'Tier 1'
 duration: '1 Session'
@@ -15,11 +15,11 @@ numPlayers: 4
 
 Inner Light is a module for Dungeons & Dragons 5th Edition, intended for a party of four level 3 characters. This setting is intended for use in space-faring fantasy settings, such as Spelljammer, but this module may also be inserted into any setting. This adventure is intended to be played over a single 3-4 hour session of play.
 
-This adventure is a more linear adventure, meant to funnel players from their starting point at their ship, through the jungles of Lux, towards the city core, and into the city's command center. The adventure follows the party helping the abandoned spirit of an elf named Veri, who wishes to reactivate their dead city and the constructs that populate it. As the players explore they will learn about the fate that befell the city in the process. Certain details have been left intentionally vague, allowing this adventure to be more easily slipped into a variety of official Dungeons & Dragons and homebrew settings.
+This adventure is a more linear adventure, meant to funnel players from their starting point at their ship, through the jungles of Lux, towards the city core, and into the city's command center. The adventure follows the party helping the abandoned spirit of an elf named Veri, who wishes to reactivate their dead city and the constructs that populate it. As the players explore, they will uncover the history of the city's ill fated downfall. Certain details in this adventure have been left intentionally vague, allowing this module to be more easily slipped into a variety of official Dungeons & Dragons and homebrew settings.
 
 ### Ferrulynne
 
-Ferrulynne is a rust-colored mineral that the people of Planet Lux use as a catch-all crafting material. It is mined from drained ground water reservoirs that become taken over by the mineral over millennia. Ferrulynne  is a natural battery for storing magic and excels as a lens to project light. It is sturdy and can also be crafted into weapons, armor, and building material.
+Ferrulynne is a rust-colored mineral that the people of Planet Lux use as a catch-all crafting material. It is mined from drained ground water reservoirs that become filled by the mineral over millennia. Ferrulynne  is a natural battery for storing magic and excels as a lens to project light. It is sturdy and can also be crafted into weapons, armor, and building material.
 
 All constructs and magic items made with Ferrulynne work by an intricate network of sharp cracks and angles formed within the mineral structure, used to control the flow of arcane energy. The specific formation of these inner cracks dictates the function of the magic item. A player may recognize how this technique functions with a DC 18 Arcana check, but will not be able to reverse engineer these items or create new ones without further long-term study.
 
@@ -27,29 +27,29 @@ All constructs and magic items made with Ferrulynne work by an intricate network
 
 ![Planet Lux Splash Art](/craft-and-code/pages/adventures/inner-light/lux.png "Planet Lux Splash Art")
 
-Lux is a humid planet with vast oceans and deep reservoirs of ground water. These reservoirs sometimes empty and may, over millennia, fill with a dense rust-colored mineral. Vegetation grows fiercely and dense on Lux, covering almost all available landmass with a jungle of thick vines and trees. Fauna on this planet has evolved to adapt to the dense jungles, sporting long limbs for climbing and sharp talons to hack at the dense vegetation. Overhead, colossal insects prowl the skies hunting for creatures that peak through the tops of the dense jungle canopy.
+Lux is a humid planet with vast oceans and deep reservoirs of ground water. These reservoirs sometimes empty and may, over millennia, fill with a dense rust-colored mineral. Vegetation grows fiercely and dense on Lux, covering almost all available landmass with a jungle of thick vines and trees. Fauna on this planet has evolved to adapt to the dense jungles, sporting long limbs for climbing and sharp talons to hack at the dense vegetation. Overhead, colossal insects prowl the skies hunting for creatures that peek through the tops of the dense canopy.
 
-Several thousand years ago, a colony of elves settled the planet, clearing out a hub for themselves in the vast jungles. Rather than carve through the jungles further, they instead focused on refining their existing colony into a great city. Over a millennia, these elves mastered their craft of the rust-colored mineral, dubbing it Ferrulynne. They crafted it into colossal towers and works of artifice. They also used it to hone their spellcraft, as they had discovered it contained an innate property to store Evocation and Illusion magic.
+Several thousand years ago, a colony of elves settled the planet, clearing out a hub for themselves in the vast jungles. Rather than carve through the jungles further, they instead focused on refining their existing colony into a towering city. Over a millennia, these elves mastered their craft of the rust-colored mineral, dubbing it Ferrulynne. They crafted it into colossal towers and intricate works of artifice. They also used it to hone their spellcraft, as they had discovered it displayed an innate property to store Evocation and Illusion magic.
 
-Nearing the end of their long elven lives, the people of the colony refused to pass on. They were unsatisfied with their progress in crafting their city and would not trust the next generation to continue their work. They were untrusting of those born on the planet itself, believing that they lacked the grit of the original colonists. Instead of passing on, they used their knowledge of Ferrulynne to bind their souls to constructed bodies. Their leaders chose to meld with the very buildings of the city itself, taking control of the city's operation from their younger offspring.
+Nearing the end of their long elven lives, the people of the colony refused to pass on. They were unsatisfied with their progress in crafting their city and would not trust the next generation to continue their work. They were untrusting of those newly born on the planet, believing that they lacked the grit of the original colonists. Instead of passing on, they used their knowledge of Ferrulynne to bind their souls to constructed bodies. Their leaders chose to meld with the very buildings and machinery of the city, taking control of the city's operation from their younger offspring.
 
-Thus, without much independence themselves, the people of Lux were not prepared for invasion. Insectoid creatures landed their ships on the city's borders and slaughtered all within, taking with them the blueprints to perform the same soul-preserving magic that the city elders had used. The city was left to ruin. Weeping for their lost home, the elders ordered all constructs, and the city itself, to shut down to avoid future detection. Only one construct disobeyed, firing off a distress beacon before ejecting their soul from their constructed body. There it remained for thousands of years.
+Thus, without much independence themselves, the people of Lux were not prepared for invasion. Insectoid creatures landed their ships on the city's borders and slaughtered all within, taking with them the blueprints to perform the same soul-preserving magic that the city elders had invented. The city was left to ruin. Weeping for their lost home, the elders ordered all constructs, and the city itself, to shut down to avoid future detection. Only one construct disobeyed, firing off a distress beacon before ejecting their soul from their constructed body. There it remained for thousands of years.
 
 ## Introduction
 
-> Violet light washes over the polished mahogany deck of your airship, casting it in an ethereal glow, reflected from the three small moons that orbit the planet below. Strapped into your seats below deck, the ship plunges into sharp dive. Its hull thrashes against the thick atmosphere and the illusory display in front of your seats floods with blinding yellow flame. The vessel slows and the din breaks into a serene calm. The flames in the illusory displays are replaced with a lush verdant landscape, vegetation thriving in the midst of ruins made from broken rust-colored crystalline towers. The planets three violet moons shine faintly against a sky of pinks and blues that swirl like a painted tapestry overhead.
+> Violet light washes over the polished mahogany deck of your airship, casting it in an ethereal glow, reflected from the three small moons that orbit the planet below. Strapped into your seats below deck, the ship plunges into sharp dive. Its hull thrashes against the thick atmosphere and the illusory display in front of your seats floods with blinding yellow flame. The vessel slows and the din breaks into a serene calm. The flames in the illusory displays are replaced with a lush verdant landscape, vegetation thriving in the midst of ruins made from broken rust-colored crystalline towers. The planet's three moons shine faintly against a sky of pinks and blues that swirl like a painted tapestry overhead.
 
 The voice over the intercom is in Elvish and says, "It is now safe to depart. Enjoy your stay on planet Lux."
 
 If they have not done so yet, take this moment to have the characters introduce themselves as they complete their landing.
 
-> Exiting the ship, you enter a wide clearing in the lush jungle. Over the horizon the tips of rust-colored towers peak over the treetops. You have landed on an overgrown dirt path crisscrossed with vines. Floating ahead on the path is a floating purple orb of flame with a bright yellow core, flickering like candlelight. Off to the side of the path is a wrecked mass of a destroyed construct, made from that same rust-colored mineral that makes up the towers.
+> Exiting the ship, you enter a wide clearing in the lush jungle. Over the horizon the tips of rust-colored towers peak over the treetops. You have landed on an overgrown dirt path crisscrossed with vines. Floating ahead on the path is a floating lavender orb of flame with a bright yellow core, flickering as if like candlelight. Off to the side of the path is a wrecked mass of a destroyed construct, fashioned from that same rust-colored mineral that makes up the towers.
 
 ## Mission & Setup
 
 The party has been summoned to the planet Lux in response to a faint distress signal from a far away world. Their reason for pursuing the distress signal is their own. They may be explorers, salvagers, archaeologists, or perhaps in need of fuel or ship repairs. Regardless of their origin, their primary goal is to seek the source of the distress beacon before leaving the planet. The ship was instructed to land within sight of the beacon.
 
-The player's ship has no other information on the planet Lux, save for its location and its three violet moons. In reality this planet has been in a state of hiding for over four thousand years and most information on its existence has been lost to time. A player may make a DC 15 Nature or History check, confirming the dearth of information on this planet on a success. If a player makes a DC 20 History check, they can confirm that a great battle occurred on the planet, wiping out all life, and little else is known.
+The player's ship has no other information on the planet Lux, save for its location and its three moons. In reality this planet has been in a state of hiding for over four thousand years and most information on its existence has been lost to time. A player may make a DC 15 Nature or History check, confirming the dearth of information on this planet on a success. If a player makes a DC 20 History check, they can confirm that a great battle occurred on the planet, wiping out all life, and little else is known.
 
 The distress signal is a code resembling Morse Code. This code can be cracked with a DC 15 Intelligence check, followed by a DC 12 History check. The language is an ancient dialect of Celestial. It repeats the same message, "They are here. Send help.". The ship's main console has a receiver for the distress beacon and it can be listened to there. A player may make a DC 12 Tinkerer's Tools check or a DC 15 Sleight of Hand check to remove the receiver from the console and take it with them. The description for the Portable Receiver item is listed in the "Items" section later in this module.
 
@@ -146,6 +146,7 @@ Veri will reward the players each with 100gp worth of gems, as well as three ran
 
 ## Creatures
 
+<div class="card">
 <div class="dnd-adventure-creature-header">
   <div>
     <h3>
@@ -195,7 +196,9 @@ Veri will reward the players each with 100gp worth of gems, as well as three ran
 #### Actions
 
 **Ring Spikes** *Melee Attack Roll*: +3, reach 5ft. *Hit:* 3 (1d4 + 1) Piercing damage.
+</div>
 
+<div class="card">
 <div class="dnd-adventure-creature-header">
   <div>
     <h3>
@@ -253,7 +256,9 @@ Veri will reward the players each with 100gp worth of gems, as well as three ran
 **Multiattack** The Crystal Soldier takes two Armblade actions.
 
 **Armblade** *Melee Attack Roll:* +5, reach 5ft. *Hit:* 6 (1d6 + 3) Slashing damage.
+</div>
 
+<div class="card">
 <div class="dnd-adventure-creature-header">
   <div>
     <h3>
@@ -305,7 +310,9 @@ Veri will reward the players each with 100gp worth of gems, as well as three ran
 **Swallow** The Talon Toad pulls their tongue into its mouth and the target is swallowed.The swallowed creature now has the Blinded and Restrained conditions, it has Total Cover against attacks and other effects outside the Talon Toad, and it takes 9 (3d6) Acid damage at the start of each of the Talon Toad’s turns. Only 1 creature may be swallowed by the Talon Toad at a time and it cannot use its Tongue Lash action while a creature is swallowed.
 
 If the Talon Toad takes 15 or more damage in a single turn, it must succeed a DC 13 Constitution saving throw at the end of that turn. If it fails, it must regurgitate the swallowed creature, which lands in a space within 15ft of the Talon Toad and has the Prone condition. If the Talon Toad dies, the swallowed creature no longer has the Restrained condition and can escape the Talon Toad using 15ft of movement, landing within 5ft of the Talon Toad and has the Prone condition.
+</div>
 
+<div class="card">
 <div class="dnd-adventure-creature-header">
   <div>
     <h3>
@@ -361,8 +368,9 @@ If the Talon Toad takes 15 or more damage in a single turn, it must succeed a DC
 **Magical Strike** *Melee Attack Roll:* +7, reach 10ft. *Hit:* 16 (4d6 + 4) Radiant damage.
 
 **Bolt (Recharge 5–6)** The Nine unleashes a bolt of radiant light in a line 100 feet long and 5 feet wide. Each creature in the line must make a DC 13 Dexterity saving throw, taking 28 (8d6) Radiant damage on a failed save, or half as much damage on a successful one.
+</div>
 
-
+<div class="card">
 <div class="dnd-adventure-creature-header">
   <div>
     <h3>
@@ -452,3 +460,4 @@ This gem has 3 charges. These charges replenish after 24 hours. A charge may be 
 *Wondrous Item, Rare*
 
 This item intercepts all communication either dispatched or received by a creature within a mile radius of this item. The communication must have originated from a Message or Sending spell. The communication is represented by a Morse Code representation of the language, which can be understood with a DC 15 Intelligence check upon first learning the code.
+</div>
